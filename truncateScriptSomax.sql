@@ -7,6 +7,9 @@ SET FOREIGN_KEY_CHECKS = 0;
 DELETE FROM area WHERE idArea <> 1;
 ALTER TABLE area AUTO_INCREMENT = 2;
 
+DELETE FROM cargo WHERE idCargo <> 1;
+ALTER TABLE cargo AUTO_INCREMENT = 2;
+
 -- Vaciar tablas y resetear autoincremental
 TRUNCATE TABLE areasFiltro;
 TRUNCATE TABLE areasMatrices;
